@@ -1,0 +1,12 @@
+.project-header{
+    font-weight: bold;
+}
+
+.project-paragraph{
+    font-size: .9em;
+}
+
+.bordered{
+    border: 1px solid black;
+    /* border-radius: 10px; */
+}
