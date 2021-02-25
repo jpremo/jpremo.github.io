@@ -10,3 +10,17 @@
     border: 1px solid black;
     /* border-radius: 10px; */
 }
+
+.bordered:hover{
+    outline: none;
+    border: 1px solid black;
+}
+
+.button.scrolly.link-button{
+    margin-bottom: 80px;
+}
+
+.skill-svg{
+    max-width: 256px;
+    max-height: 256px;
+}
