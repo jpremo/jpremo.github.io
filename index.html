@@ -3,6 +3,7 @@
 
 <head>
   <title>Jacob Premo</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
@@ -26,7 +27,7 @@
       <nav id="nav">
         <ul>
           <li>
-            <a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a>
+            <a href="#intro" id="intro-link"><span class="icon solid fa-home">Intro</span></a>
           </li>
           <li>
             <a href="#projects" id="projects-link"><span class="icon solid fa-th">Projects</span></a>
@@ -72,7 +73,7 @@
   <!-- Main -->
   <div id="main">
     <!-- Intro -->
-    <section id="top" class="one dark cover">
+    <section id="intro" class="one dark cover">
       <div class="container">
         <header>
           <h2 class="alt">
@@ -105,7 +106,7 @@
             <h3>Pixel Showdown</h3>
           </header>
 
-          <a href="https://pixel-showdown.herokuapp.com/" class="image featured bordered"><img
+          <a href="https://pixel-showdown.herokuapp.com/" target="_blank" class="image featured bordered"><img
               src="images/PixelShowdownDemo.gif" alt="" /></a>
 
           <p>
@@ -114,13 +115,13 @@
             create competitions/rule sets and participate in
             competitions held by other users. The image editor was
             custom developed and provides users with features common to
-            image editing software while also enabling cloud and custom
+            image editing software while also enabling cloud storage and custom
             image animation. Pixel Showdown was developed using a Flask/SQLAlchemy backend with AWS integration
             alongside a React/Redux frontend.
           </p>
           <footer>
-            <a href="https://pixel-showdown.herokuapp.com/" class="button scrolly link-button">Live Site</a>
-            <a href="https://github.com/jpremo/pixel_showdown" class="button scrolly link-button">Github Repository</a>
+            <a href="https://pixel-showdown.herokuapp.com/" target="_blank" class="button scrolly link-button">Live Site</a>
+            <a href="https://github.com/jpremo/pixel_showdown" target="_blank" class="button scrolly link-button">Github Repository</a>
           </footer>
         </div>
 
@@ -130,19 +131,18 @@
             <h3>Open Bar</h3>
           </header>
 
-          <a href="https://openbarweb.herokuapp.com/" class="image featured bordered"><img src="images/OpenBar.png"
+          <a href="https://openbarweb.herokuapp.com/" target="_blank" class="image featured bordered"><img src="images/OpenBar.png"
               alt="" /></a>
 
           <p>
-            A clone of Open Table focused on the niche of reserving bar seats that was developed
-            collaboritavely. Users are able to create a bar, write reviews,
+            Open Bar is a collaboratively developed clone of Open Table focused on the niche of reserving bar seats. Users are able to create a bar, write reviews,
             search for bars, and make reservations for a party size of their choosing.
             Open Bar was built using a Flask/Postgres/SQLAlchemy backend along with a React/Redux frontend.
             Mapping functionality was incorporated using the Google Maps API.</p>
         </div>
         <footer>
-          <a href="https://openbarweb.herokuapp.com/" class="button scrolly link-button">Live Site</a>
-          <a href="https://github.com/jpremo/open_bar" class="button scrolly link-button">Github Repository</a>
+          <a href="https://openbarweb.herokuapp.com/" target="_blank" class="button scrolly link-button">Live Site</a>
+          <a href="https://github.com/jpremo/open_bar" target="_blank" class="button scrolly link-button">Github Repository</a>
         </footer>
 
 
@@ -152,20 +152,20 @@
             <h3>Petential Places</h3>
           </header>
 
-          <a href="https://petential-places.herokuapp.com/" class="image featured bordered"><img
+          <a href="https://petential-places.herokuapp.com/" target="_blank" class="image featured bordered"><img
               src="images/PetentialPlaces.png" alt="" /></a>
 
           <p>
             A full stack Yelp clone built with pet-owning businesses in mind. Users can create businesses, write
             reviews, search up
             places by name or location, and see what others have to say about popular businesses. It was developed using
-            Express/Postgres/Sequelize on the backend and React/Redux on the frontend. Mapping and geolocation was
+            Express/Postgres/Sequelize on the backend and React/Redux on the frontend. Mapping and geolocation were
             incorporated using
             the TomTom Maps API.</p>
         </div>
         <footer>
-          <a href="https://petential-places.herokuapp.com/" class="button scrolly link-button">Live Site</a>
-          <a href="https://github.com/jpremo/Pet-tential-Places" class="button scrolly link-button">Github
+          <a href="https://petential-places.herokuapp.com/" target="_blank" class="button scrolly link-button">Live Site</a>
+          <a href="https://github.com/jpremo/Pet-tential-Places" target="_blank" class="button scrolly link-button">Github
             Repository</a>
         </footer>
 
@@ -176,22 +176,21 @@
             <h3>JavaScript Jungle</h3>
           </header>
 
-          <a href="https://jsjredux.herokuapp.com/ " class="image featured bordered"><img
+          <a href="https://jsjredux.herokuapp.com/ " target="_blank" class="image featured bordered"><img
               src="images/JavaScriptJungle.png" alt="" /></a>
 
           <p>
             JavaScript Jungle is a full stack clone of Stack Overflow with an explicit focus on JavaScript and related
             frameworks.
-            It was developed in a group setting with key features of the site including the ability to post questions,
-            answer
-            questions, upvote/downvote answers or questions, and to search through existing questions and answers.
+            It was developed in a group setting with key features of the site including the ability to post and answer questions.
+            Additionally, users are able to upvote/downvote posts, and search through threads.
             JavaScript Jungle
             was built using an Express/Postgres/Sequelize backend in conjunction with Pug templating for the frontend.
           </p>
         </div>
         <footer>
-          <a href="https://jsjredux.herokuapp.com/ " class="button scrolly">Live Site</a>
-          <a href="https://github.com/Giiaga/JavaScriptJungle" class="button scrolly">Github Repository</a>
+          <a href="https://jsjredux.herokuapp.com/ " target="_blank" class="button scrolly">Live Site</a>
+          <a href="https://github.com/Giiaga/JavaScriptJungle" target="_blank" class="button scrolly">Github Repository</a>
         </footer>
 
     </section>
@@ -265,87 +264,6 @@
       </div>
     </section>
 
-    <!-- About Me -->
-    <!-- <section id="about" class="four">
-      <div class="container">
-        <header>
-          <h2>About Me</h2>
-        </header>
-
-        <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-        <p>
-          Tincidunt eu elit diam magnis pretium accumsan etiam id urna.
-          Ridiculus ultricies curae quis et rhoncus velit. Lobortis elementum
-          aliquet nec vitae laoreet eget cubilia quam non etiam odio tincidunt
-          montes. Elementum sem parturient nulla quam placerat viverra mauris
-          non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-          donec curae mus vel quisque sociis nec ornare iaculis.
-        </p>
-      </div>
-    </section> -->
-
-    <!-- projects -->
-    <!-- <section id="projects" class="two">
-      <div class="container">
-
-        <header>
-          <h2>projects</h2>
-        </header>
-
-        <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-          egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-          Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-          fusce hendrerit lacus ridiculus.</p>
-
-        <div class="row">
-          <div class="col-4 col-12-mobile">
-            <article class="item">
-              <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-              <header>
-                <h3>Ipsum Feugiat</h3>
-              </header>
-            </article>
-            <article class="item">
-              <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-              <header>
-                <h3>Rhoncus Semper</h3>
-              </header>
-            </article>
-          </div>
-          <div class="col-4 col-12-mobile">
-            <article class="item">
-              <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-              <header>
-                <h3>Magna Nullam</h3>
-              </header>
-            </article>
-            <article class="item">
-              <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-              <header>
-                <h3>Natoque Vitae</h3>
-              </header>
-            </article>
-          </div>
-          <div class="col-4 col-12-mobile">
-            <article class="item">
-              <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-              <header>
-                <h3>Dolor Penatibus</h3>
-              </header>
-            </article>
-            <article class="item">
-              <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-              <header>
-                <h3>Orci Convallis</h3>
-              </header>
-            </article>
-          </div>
-        </div>
-
-      </div>
-    </section> -->
-
     <!-- Contact -->
     <section id="contact" class="four">
       <div class="container">
@@ -355,28 +273,11 @@
 
         <p>
           Please email me at <a class='info-link' href='mailto:premojacob@gmail.com'>premojacob@gmail.com</a>
-          with any questions or opportunities. My <a class='info-link' href='https://docs.google.com/document/d/1oUubplUFKVOEyAEDzW5MVfyQZMv1-F5MfAdO-3xnoFs/edit?usp=sharing'>resume</a> along with my
-          <a class='info-link' href="https://github.com/jpremo">GitHub</a>,
-          <a class='info-link' href="https://www.linkedin.com/in/jacob-premo/">LinkedIn</a>,
-          and <a class='info-link' href="https://angel.co/u/jacob-premo" >AngelList</a> profiles are also available for your review.
+          with any questions or opportunities. My <a class='info-link' target="_blank" href='https://docs.google.com/document/d/1oUubplUFKVOEyAEDzW5MVfyQZMv1-F5MfAdO-3xnoFs/edit?usp=sharing'>resume</a> along with my
+          <a class='info-link' target="_blank" href="https://github.com/jpremo">GitHub</a>,
+          <a class='info-link' target="_blank" href="https://www.linkedin.com/in/jacob-premo/">LinkedIn</a>,
+          and <a class='info-link' target="_blank" href="https://angel.co/u/jacob-premo" >AngelList</a> profiles are also available for your review.
         </p>
-
-        <!-- <form method="post" action="#">
-          <div class="row">
-            <div class="col-6 col-12-mobile">
-              <input type="text" name="name" placeholder="Name" />
-            </div>
-            <div class="col-6 col-12-mobile">
-              <input type="text" name="email" placeholder="Email" />
-            </div>
-            <div class="col-12">
-              <textarea name="message" placeholder="Message"></textarea>
-            </div>
-            <div class="col-12">
-              <input type="submit" value="Send Message" />
-            </div>
-          </div>
-        </form> -->
       </div>
     </section>
   </div>
