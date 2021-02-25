@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/additional.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
 </head>
 
 <body class="is-preload">
@@ -27,11 +29,14 @@
             <a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a>
           </li>
           <li>
-            <a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a>
+            <a href="#projects" id="projects-link"><span class="icon solid fa-th">Projects</span></a>
           </li>
           <li>
-            <a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a>
+            <a href="#skills" id="skills-link"><span class="icon solid fa-user">Skills</span></a>
           </li>
+          <!-- <li>
+            <a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a>
+          </li> -->
           <li>
             <a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
           </li>
@@ -43,14 +48,21 @@
       <!-- Social Icons -->
       <ul class="icons">
         <li>
-          <a href="https://github.com/jpremo" class="icon brands fa-github"><span class="label">Github</span></a>
+          <a href="mailto:premojacob@gmail.com" class="icon brands fa-award"><i class="fas fa-envelope"></i><span class="label">Email</span></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/jacob-premo/" class="icon brands fa-linkedin"><span
+          <a href='https://docs.google.com/document/d/1oUubplUFKVOEyAEDzW5MVfyQZMv1-F5MfAdO-3xnoFs/edit?usp=sharing'
+           class="icon brands fa-file" target="_blank"><i class="fas fa-file"></i><span class="label">Resume</span></a>
+        </li>
+        <li>
+          <a href="https://github.com/jpremo" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jacob-premo/" class="icon brands fa-linkedin" target="_blank"><span
               class="label">LinkedIn</span></a>
         </li>
         <li>
-          <a href="https://angel.co/u/jacob-premo" class="icon brands fa-angellist"><span
+          <a href="https://angel.co/u/jacob-premo" class="icon brands fa-angellist" target="_blank"><span
               class="label">AngelList</span></a>
         </li>
       </ul>
@@ -64,26 +76,22 @@
       <div class="container">
         <header>
           <h2 class="alt">
-            Hi! I'm <strong>Jacob Premo</strong>, a software engineer<br />
-            who loves problem solving and application development.
+            Hi! I'm <strong>Jacob Premo</strong>, a full stack software engineer
+            specializing in JavaScript, React, and Python
           </h2>
           <p>
-            Please feel free to check out some of my projects<br />
+            Please feel free to check out some of my projects
             and reach out if you have any questions
           </p>
         </header>
-
-        <!-- <footer>
-								<a href="#portfolio" class="button scrolly link-button">Magna Aliquam</a>
-							</footer> -->
       </div>
     </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="two">
+    <!-- projects -->
+    <section id="projects" class="two">
       <div class="container">
         <header>
-          <h2>Portfolio</h2>
+          <h2>Projects</h2>
         </header>
 
         <p>
@@ -122,8 +130,8 @@
             <h3>Open Bar</h3>
           </header>
 
-          <a href="https://openbarweb.herokuapp.com/" class="image featured bordered"><img
-              src="images/OpenBar.png" alt="" /></a>
+          <a href="https://openbarweb.herokuapp.com/" class="image featured bordered"><img src="images/OpenBar.png"
+              alt="" /></a>
 
           <p>
             A clone of Open Table focused on the niche of reserving bar seats that was developed
@@ -144,18 +152,21 @@
             <h3>Petential Places</h3>
           </header>
 
-          <a href="https://petential-places.herokuapp.com/" class="image featured bordered"><img src="images/PetentialPlaces.png"
-              alt="" /></a>
+          <a href="https://petential-places.herokuapp.com/" class="image featured bordered"><img
+              src="images/PetentialPlaces.png" alt="" /></a>
 
           <p>
-            A full stack Yelp clone built with pet-owning businesses in mind. Users can create businesses, write reviews, search up
+            A full stack Yelp clone built with pet-owning businesses in mind. Users can create businesses, write
+            reviews, search up
             places by name or location, and see what others have to say about popular businesses. It was developed using
-            Express/Postgres/Sequelize on the backend and React/Redux on the frontend. Mapping and geolocation was incorporated using
+            Express/Postgres/Sequelize on the backend and React/Redux on the frontend. Mapping and geolocation was
+            incorporated using
             the TomTom Maps API.</p>
         </div>
         <footer>
           <a href="https://petential-places.herokuapp.com/" class="button scrolly link-button">Live Site</a>
-          <a href="https://github.com/jpremo/Pet-tential-Places" class="button scrolly link-button">Github Repository</a>
+          <a href="https://github.com/jpremo/Pet-tential-Places" class="button scrolly link-button">Github
+            Repository</a>
         </footer>
 
 
@@ -169,10 +180,14 @@
               src="images/JavaScriptJungle.png" alt="" /></a>
 
           <p>
-            JavaScript Jungle is a full stack clone of Stack Overflow with an explicit focus on JavaScript and related frameworks.
-            It was developed in a group setting with key features of the site including the ability to post questions, answer
-            questions, upvote/downvote answers or questions, and to search through existing questions and answers. JavaScript Jungle
-            was built using an Express/Postgres/Sequelize backend in conjunction with Pug templating for the frontend.</p>
+            JavaScript Jungle is a full stack clone of Stack Overflow with an explicit focus on JavaScript and related
+            frameworks.
+            It was developed in a group setting with key features of the site including the ability to post questions,
+            answer
+            questions, upvote/downvote answers or questions, and to search through existing questions and answers.
+            JavaScript Jungle
+            was built using an Express/Postgres/Sequelize backend in conjunction with Pug templating for the frontend.
+          </p>
         </div>
         <footer>
           <a href="https://jsjredux.herokuapp.com/ " class="button scrolly">Live Site</a>
@@ -181,10 +196,77 @@
 
     </section>
 
+    <!-- Skills -->
+    <section id="skills" class="three">
+      <div class="container">
+        <header>
+          <h2>Skills</h2>
+        </header>
 
+        <div class="row">
+
+          <div>
+            <img class="image fit skill-svg borde" src="images/skillSvgs/javascript.svg" alt="" />
+            <p>JavaScript</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/python.svg" alt="" />
+            <p>Python</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/html5.svg" alt="" />
+            <p>HTML5</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/css3.svg" alt="" />
+            <p>CSS3</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/react.svg" alt="" />
+            <p>React</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/redux.svg" alt="" />
+            <p>Redux</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/express.svg" alt="" />
+            <p>Express</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/postgresql.svg" alt="" />
+            <p>PostgreSQL</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/sequelize.svg" alt="" />
+            <p>Sequelize</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/nodejs.svg" alt="" />
+            <p>Node.js</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/flask.svg" alt="" />
+            <p>Flask</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/sqlalchemy.svg" alt="" />
+            <p>SQLAlchemy</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/aws.svg" alt="" />
+            <p>AWS</p>
+          </div>
+          <div>
+            <img class="image fit skill-svg" src="images/skillSvgs/docker.svg" alt="" />
+            <p>Docker</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- About Me -->
-    <section id="about" class="three">
+    <!-- <section id="about" class="four">
       <div class="container">
         <header>
           <h2>About Me</h2>
@@ -201,114 +283,14 @@
           donec curae mus vel quisque sociis nec ornare iaculis.
         </p>
       </div>
+    </section> -->
+
+    <!-- projects -->
+    <!-- <section id="projects" class="two">
       <div class="container">
 
         <header>
-          <h2>Skills</h2>
-        </header>
-
-        <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-          egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-          Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-          fusce hendrerit lacus ridiculus.</p>
-
-        <div class="row">
-
-            <div>
-              <img class="image fit skill-svg borde" src="images/skillSvgs/javascript.svg" alt="" />
-              <p>JavaScript</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/python.svg" alt="" />
-              <p>Python</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/html5.svg" alt="" />
-              <p>HTML5</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/css3.svg" alt="" />
-              <p>CSS3</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/react.svg" alt="" />
-              <p>React</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/redux.svg" alt="" />
-              <p>Redux</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/express.svg" alt="" />
-              <p>Express</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/postgresql.svg" alt="" />
-              <p>PostgreSQL</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/sequelize.svg" alt="" />
-              <p>Sequelize</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/nodejs.svg" alt="" />
-              <p>Node.js</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/flask.svg" alt="" />
-              <p>Flask</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/sqlalchemy.svg" alt="" />
-              <p>SQLAlchemy</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/aws.svg" alt="" />
-              <p>AWS</p>
-            </div>
-            <div>
-              <img class="image fit skill-svg" src="images/skillSvgs/docker.svg" alt="" />
-              <p>Docker</p>
-            </div>
-
-
-
-
-
-            <!-- <article class="item">
-              <img class="image fit skill-svg" src="images/skillSvgs/python.svg" alt="" />
-            </article>
-            <article class="item">
-              <a href="#" class="image fit skill-svg"><img src="images/skillSvgs/postgresql.svg" alt="" /></a>
-            </article>
-
-
-            <article class="item">
-              <img class="image fit skill-svg" src="images/skillSvgs/react.svg" alt="" />
-            </article>
-            <article class="item">
-              <a href="#" class="image fit skill-svg"><img src="images/skillSvgs/sequelize.svg" alt="" /></a>
-            </article>
-
-
-            <article class="item">
-              <img class="image fit skill-svg" src="images/skillSvgs/react.svg" alt="" />
-            </article>
-            <article class="item">
-              <a href="#" class="image fit skill-svg"><img src="images/skillSvgs/sequelize.svg" alt="" /></a>
-            </article> -->
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Portfolio -->
-    <!-- <section id="portfolio" class="two">
-      <div class="container">
-
-        <header>
-          <h2>Portfolio</h2>
+          <h2>projects</h2>
         </header>
 
         <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
@@ -372,14 +354,14 @@
         </header>
 
         <p>
-          Elementum sem parturient nulla quam placerat viverra mauris non cum
-          elit tempus ullamcorper dolor. Libero rutrum ut lacinia donec curae
-          mus. Eleifend id porttitor ac ultricies lobortis sem nunc orci
-          ridiculus faucibus a consectetur. Porttitor curae mauris urna mi
-          dolor.
+          Please email me at <a class='info-link' href='mailto:premojacob@gmail.com'>premojacob@gmail.com</a>
+          with any questions or opportunities. My <a class='info-link' href='https://docs.google.com/document/d/1oUubplUFKVOEyAEDzW5MVfyQZMv1-F5MfAdO-3xnoFs/edit?usp=sharing'>resume</a> along with my
+          <a class='info-link' href="https://github.com/jpremo">GitHub</a>,
+          <a class='info-link' href="https://www.linkedin.com/in/jacob-premo/">LinkedIn</a>,
+          and <a class='info-link' href="https://angel.co/u/jacob-premo" >AngelList</a> profiles are also available for your review.
         </p>
 
-        <form method="post" action="#">
+        <!-- <form method="post" action="#">
           <div class="row">
             <div class="col-6 col-12-mobile">
               <input type="text" name="name" placeholder="Name" />
@@ -394,7 +376,7 @@
               <input type="submit" value="Send Message" />
             </div>
           </div>
-        </form>
+        </form> -->
       </div>
     </section>
   </div>
