@@ -2336,6 +2336,10 @@ input, select, textarea {
 				width: 1.75em;
 			}
 
+			ul.icons li a i {
+				max-width: 100%;
+			}
+
 		/* Item */
 
 			.item {
