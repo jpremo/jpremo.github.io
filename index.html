@@ -3,10 +3,8 @@
 
 <head>
   <title>Jacob Premo</title>
-  <meta name="image" property="og:image"
-    content="./images/avatar.jpg" />
-  <meta name="description" property="og:description"
-    content="The personal site of Jacob Premo, a full stack
+  <meta name="image" property="og:image" content="./images/avatar.jpg" />
+  <meta name="description" property="og:description" content="The personal site of Jacob Premo, a full stack
     software engineer specializing in JavaScript, React, and Python." />
   <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
   <meta charset="utf-8" />
@@ -35,6 +33,9 @@
             <a href="#intro" id="intro-link"><span class="icon solid fa-home">Intro</span></a>
           </li>
           <li>
+            <a href="#experience" id="intro-link"><span class="icon solid fa-briefcase">Experience</span></a>
+          </li>
+          <li>
             <a href="#projects" id="projects-link"><span class="icon solid fa-th">Projects</span></a>
           </li>
           <li>
@@ -51,14 +52,16 @@
       <!-- Social Icons -->
       <ul class="icons">
         <li>
-          <a href="mailto:premojacob@gmail.com" class="icon brands"><i class="fas fa-envelope"></i><span class="label">Email</span></a>
+          <a href="mailto:premojacob@gmail.com" class="icon brands"><i class="fas fa-envelope"></i><span
+              class="label">Email</span></a>
         </li>
         <li>
-          <a href='https://docs.google.com/document/d/1oUubplUFKVOEyAEDzW5MVfyQZMv1-F5MfAdO-3xnoFs/edit?usp=sharing'
-           class="icon brands" target="_blank"><i class="fas fa-file"></i><span class="label">Resume</span></a>
+          <a href='https://docs.google.com/document/d/1gnDiD6UwfQtqIQ_OUJ5ScYtSEbdqF4NEQTu_z4D8nNI/edit?usp=sharing'
+            class="icon brands" target="_blank"><i class="fas fa-file"></i><span class="label">Resume</span></a>
         </li>
         <li>
-          <a href="https://github.com/jpremo" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a>
+          <a href="https://github.com/jpremo" class="icon brands fa-github" target="_blank"><span
+              class="label">Github</span></a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/jacob-premo/" class="icon brands fa-linkedin" target="_blank"><span
@@ -88,23 +91,68 @@
           </p>
         </header>
         <footer>
-          <a href='https://docs.google.com/document/d/1oUubplUFKVOEyAEDzW5MVfyQZMv1-F5MfAdO-3xnoFs/edit?usp=sharing' target="_blank" class="button scrolly small-margin">Resume</a>
+          <a href='https://docs.google.com/document/d/1gnDiD6UwfQtqIQ_OUJ5ScYtSEbdqF4NEQTu_z4D8nNI/edit?usp=sharing'
+            target="_blank" class="button scrolly small-margin">Resume</a>
         </footer>
       </div>
     </section>
 
+    <!-- Contact -->
+    <section id="experience" class="two">
+      <div class="container">
+        <header>
+          <h2>Experience</h2>
+        </header>
+        <h3>Forio</h3>
+        <h4>Software Engineer</h4>
+        <p>I've worked for Forio since joining the software engineering industry in early 2021.
+          During my time there I developed custom simulations for over a dozen clients and helped to manage ongoing
+          maintenance for over 30 older projects.
+          I learned a lot during my time at Forio and really grew into the role of a skilled software developer capable
+          of finding efficient solutions to complex problems either in an independent or collaborative setting.
+          Throughout my time there I implemented a variety of complex features throughout multiple projects including
+          WebRTC based video conferencing and recording, large scale data retrieval APIs, and custom single sign-on
+          authentication.
+          I even helped to introduce several more modern coding techniques and libraries that really helped to improve
+          our workflow.
+        </p>
+      </div>
+    </section>
+
     <!-- projects -->
-    <section id="projects" class="two">
+    <section id="projects" class="three">
       <div class="container">
         <header>
           <h2>Projects</h2>
         </header>
 
         <p>
-          These are some of my fullstack applications that were built with
-          various technologies including, but not limited to, JavaScript,
-          React, Redux, PostgreSQL, Sequelize, Python, Flask, and SQLAlchemy
+          These are some applications that I have built professionally, as personal projects, or during my education.
+          They are built on technologies including, but not limited to, JavaScript,
+          React, Redux, PostgreSQL, Sequelize, Express, Python, Flask, and SQLAlchemy.
         </p>
+
+        <!-- Pixel Showdown -->
+        <div class="container">
+          <header>
+            <h3>COVID-19 Vaccine Poll</h3>
+          </header>
+
+          <a href="https://www.covidvaccinepoll.com/" target="_blank" class="image featured bordered"><img
+              src="images/CovidVaccinePoll.png" alt="" /></a>
+
+          <p>
+            A publicly accessible application I built during my time working for Forio that focuses on visualizing
+            COVID-19 vaccine hesitancy data from a study surveying over
+            12,000 Americans. Users are able to filter information based on various categories and can see
+            what types of messaging were most effective in reducing vaccine hesitancy.
+          </p>
+          <footer>
+            <a href="https://www.covidvaccinepoll.com/" target="_blank" class="button scrolly small-margin">Live
+              Site</a>
+          </footer>
+        </div>
+
         <!-- Pixel Showdown -->
         <div class="container">
           <header>
@@ -118,15 +166,17 @@
             An original web app concept that gives users the ability to
             participate in pixel art competitions. Users are able to
             create competitions/rule sets and participate in
-            competitions held by other users. The image editor was
+            contests held by other users. The image editor was
             custom developed and provides users with features common to
             image editing software while also enabling cloud storage and custom
             image animation. Pixel Showdown was developed using a Flask/SQLAlchemy backend with AWS integration
             alongside a React/Redux frontend.
           </p>
           <footer>
-            <a href="https://pixel-showdown.herokuapp.com/" target="_blank" class="button scrolly small-margin">Live Site</a>
-            <a href="https://github.com/jpremo/pixel_showdown" target="_blank" class="button scrolly link-button">GitHub Repository</a>
+            <a href="https://pixel-showdown.herokuapp.com/" target="_blank" class="button scrolly small-margin">Live
+              Site</a>
+            <a href="https://github.com/jpremo/pixel_showdown" target="_blank" class="button scrolly link-button">GitHub
+              Repository</a>
           </footer>
         </div>
 
@@ -136,18 +186,20 @@
             <h3>Open Bar</h3>
           </header>
 
-          <a href="https://openbarapp.herokuapp.com/" target="_blank" class="image featured bordered"><img src="images/OpenBar.png"
-              alt="" /></a>
+          <a href="https://openbarapp.herokuapp.com/" target="_blank" class="image featured bordered"><img
+              src="images/OpenBar.png" alt="" /></a>
 
           <p>
-            Open Bar is a collaboratively developed clone of Open Table focused on the niche of reserving bar seats. Users are able to create a bar, write reviews,
+            Open Bar is a collaboratively developed clone of Open Table focused on the niche of reserving bar seats.
+            Users are able to create a bar, write reviews,
             search for bars, and make reservations for a party size of their choosing.
             Open Bar was built using a Flask/Postgres/SQLAlchemy backend along with a React/Redux frontend.
             Mapping functionality was incorporated using the Google Maps API.</p>
         </div>
         <footer>
           <a href="https://openbarapp.herokuapp.com/" target="_blank" class="button scrolly small-margin">Live Site</a>
-          <a href="https://github.com/jpremo/open_bar" target="_blank" class="button scrolly link-button">GitHub Repository</a>
+          <a href="https://github.com/jpremo/open_bar" target="_blank" class="button scrolly link-button">GitHub
+            Repository</a>
         </footer>
 
 
@@ -169,8 +221,10 @@
             the TomTom Maps API.</p>
         </div>
         <footer>
-          <a href="https://petential-places.herokuapp.com/" target="_blank" class="button scrolly small-margin">Live Site</a>
-          <a href="https://github.com/jpremo/Pet-tential-Places" target="_blank" class="button scrolly link-button">Github
+          <a href="https://petential-places.herokuapp.com/" target="_blank" class="button scrolly small-margin">Live
+            Site</a>
+          <a href="https://github.com/jpremo/Pet-tential-Places" target="_blank"
+            class="button scrolly link-button">Github
             Repository</a>
         </footer>
 
@@ -187,7 +241,8 @@
           <p>
             JavaScript Jungle is a full stack clone of Stack Overflow with an explicit focus on JavaScript and related
             frameworks.
-            It was developed in a group setting with key features of the site including the ability to post and answer questions.
+            It was developed in a group setting with key features of the site including the ability to post and answer
+            questions.
             Additionally, users are able to upvote/downvote posts, and search through threads.
             JavaScript Jungle
             was built using an Express/Postgres/Sequelize backend in conjunction with Pug templating for the frontend.
@@ -195,13 +250,14 @@
         </div>
         <footer>
           <a href="https://jsjungle.herokuapp.com/" target="_blank" class="button scrolly small-margin">Live Site</a>
-          <a href="https://github.com/Giiaga/JavaScriptJungle" target="_blank" class="button scrolly">GitHub Repository</a>
+          <a href="https://github.com/Giiaga/JavaScriptJungle" target="_blank" class="button scrolly">GitHub
+            Repository</a>
         </footer>
 
     </section>
 
     <!-- Skills -->
-    <section id="skills" class="three">
+    <section id="skills" class="four">
       <div class="container">
         <header>
           <h2>Skills</h2>
@@ -270,7 +326,7 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="four">
+    <section id="contact" class="five">
       <div class="container">
         <header>
           <h2>Contact</h2>
@@ -278,10 +334,13 @@
 
         <p>
           Please email me at <a class='info-link' href='mailto:premojacob@gmail.com'>premojacob@gmail.com</a>
-          with any questions or opportunities. My <a class='info-link' target="_blank" href='https://docs.google.com/document/d/1oUubplUFKVOEyAEDzW5MVfyQZMv1-F5MfAdO-3xnoFs/edit?usp=sharing'>resume</a> along with my
+          with any questions or opportunities. My <a class='info-link' target="_blank"
+            href='https://docs.google.com/document/d/1gnDiD6UwfQtqIQ_OUJ5ScYtSEbdqF4NEQTu_z4D8nNI/edit?usp=sharing'>resume</a>
+          along with my
           <a class='info-link' target="_blank" href="https://github.com/jpremo">GitHub</a>,
           <a class='info-link' target="_blank" href="https://www.linkedin.com/in/jacob-premo/">LinkedIn</a>,
-          and <a class='info-link' target="_blank" href="https://angel.co/u/jacob-premo" >AngelList</a> profiles are also available for your review.
+          and <a class='info-link' target="_blank" href="https://angel.co/u/jacob-premo">AngelList</a> profiles are also
+          available for your review.
         </p>
       </div>
     </section>
